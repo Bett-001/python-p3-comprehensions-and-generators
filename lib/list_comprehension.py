@@ -1,7 +1,6 @@
-#!/usr/bin/env python3
 
-def return_evens(num_list):
-    pass
+def return_evens(seq):
+    return [n for n in seq if n % 2 == 0]
 
-def make_exclamation(sentence_list):
-    pass
+def make_exclamation(sentences):
+    return [s + "!" for s in sentences]
